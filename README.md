@@ -22,13 +22,5 @@ uv run python train.py      # train the 2-joint arm (~5 min on an M-series CPU)
 uv run python evaluate.py   # scores, GIF and learning curve into results/
 ```
 
-## Roadmap
-
-| Week | Goal | Status |
-|---|---|---|
-| 1 | Train a 2-joint arm to reach a target | ✅ |
-| 2 | Add a 3rd joint and measure how badly the trained policy breaks | next |
-| 3 | Train one policy across random bodies, then test it on unseen ones | |
-| 4 | Demo page | |
 
 How it all works, file by file: [TECHNICAL.md](TECHNICAL.md)
