@@ -1,0 +1,12 @@
+[project]
+name = "arm-adapt"
+version = "0.1.0"
+description = "Does a robot arm policy survive getting an extra joint?"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium>=1.4.0",
+    "imageio>=2.38.1",
+    "matplotlib>=3.11.2",
+    "mujoco>=3.17.0",
+    "stable-baselines3>=2.9.0",
+]

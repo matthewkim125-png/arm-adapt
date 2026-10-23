@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+models/
+arm_check.png
+.DS_Store
